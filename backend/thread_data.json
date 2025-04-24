@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "The Ethics of GPT",
+      "content": "Is AI becoming too human-like? Let's explore how language models are reshaping conversations...",
+      "tags": ["AI", "ethics", "language models"]
+    },
+    {
+      "id": 2,
+      "title": "Why Humor Makes Us Human",
+      "content": "Humor, sarcasm, and memes - how do they reflect our intelligence and emotions?",
+      "tags": ["psychology", "humor", "communication"]
+    },
+    {
+      "id": 3,
+      "title": "AI + Creativity = ?",
+      "content": "Artists and engineers discuss how generative models are changing the definition of art.",
+      "tags": ["creativity", "artificial intelligence", "future"]
+    }
+  ]
+  
