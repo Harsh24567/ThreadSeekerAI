@@ -63,7 +63,8 @@ backend/
 
 ## Demo Walkthrough
 
-[Watch the Loom Video Walkthrough]([https://www.loom.com/share/abc123xyz456](https://www.loom.com/share/fa0e6dc9ddae439f903f59e272b7355f?sid=67181399-78de-4302-9361-c29c2a82bb63))
+[▶️ Click here to watch the walkthrough on Loom]([https://www.loom.com/share/abc123xyz456](https://www.loom.com/share/fa0e6dc9ddae439f903f59e272b7355f?sid=819c07dd-a927-4edc-9f23-7f6980ad59e8))
+
 
 ## Challenges I Faced
 
