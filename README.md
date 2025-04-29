@@ -64,10 +64,16 @@ backend/
 ## Challenges I Faced
 
 - **React-Vite caching issues**: Updates to App.tsx were not reflecting due to Vite's hot module cache. This was solved by fully restarting the dev server and clearing the browser cache.
+
 - **Button state logic**: Replacing radio buttons with visually distinct toggles required precise use of Tailwind utility classes to reflect active/hover/pressed states.
-- **Thread title formatting**: Needed to remove analysis suffixes like " - Analysis 5" from thread titles in the dataset for a cleaner display.
+
 - **Tailwind class purging**: Ensured Tailwind didn't purge dynamic utility classes by verifying the correct `content` paths in `tailwind.config.js`.
 
+- **Deployment memory constraint**: Although the web app was fully functional, backend deployment on platforms like Render failed due to RAM limits when using transformer models. Lighter alternatives were explored, but final resolution was deferred due to concurrent end-semester exams.
+
+- Open port detection on serverless platforms**: On Render and Railway, the backend service failed to detect open ports because the server was either bound incorrectly or was killed silently due to memory usage. This required environment-aware port binding and memory-efficient model loading.
+
+- **Backend and frontend decoupling** : Maintaining seamless integration between a separately deployed frontend (on Vercel) and backend (on Render/Fly.io) required correctly managing CORS policies, BASE_URL environment variables, and deployment timing to prevent API misfires during live testing.
 ## License
 
 MIT License
