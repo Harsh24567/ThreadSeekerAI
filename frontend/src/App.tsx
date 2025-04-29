@@ -67,7 +67,7 @@ function App() {
       const data = await response.json();
       setResults(data.results || []);
     } catch (err) {
-      console.error(err);
+      // console.error(err);
       // setError('Backend not responding. Showing mock data.');
     } finally {
       setIsSearching(false);
@@ -212,6 +212,3 @@ function App() {
 }
 
 export default App;
-
-
-

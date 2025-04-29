@@ -1,0 +1,5 @@
+Flask
+flask-cors
+sentence-transformers==2.2.2
+huggingface-hub==0.10.1
+praw
