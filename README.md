@@ -61,6 +61,10 @@ backend/
 
 5. **Access the app at** `http://localhost:5173`
 
+## Demo Walkthrough
+
+[Watch the Loom Video Walkthrough]([https://www.loom.com/share/abc123xyz456](https://www.loom.com/share/fa0e6dc9ddae439f903f59e272b7355f?sid=67181399-78de-4302-9361-c29c2a82bb63))
+
 ## Challenges I Faced
 
 - **React-Vite caching issues**: Updates to App.tsx were not reflecting due to Vite's hot module cache. This was solved by fully restarting the dev server and clearing the browser cache.
